@@ -12,6 +12,7 @@ Takes in leads from Tally forms, Google Forms, and email, enriches and scores th
 **Outcome:** Cut the time spent manually qualifying and following up on leads, and got new leads in front of the sales team right away.
 
 **Stack:** n8n · Claude · Slack API · HubSpot API · Google Sheets · Webhooks
+
 Read the case study → (https://github.com/nikklet/sales-pipeline-automation)
 
 ### Incoming Data Classifier and Router
@@ -20,6 +21,7 @@ Receives incoming data through a webhook or API, uses an LLM to classify it (e.g
 **Outcome:** Reduced handling time by sending each request straight to the right department instead of being sorted by hand.
 
 **Stack:** n8n · Gemini / Claude · Slack API · Webhooks · REST
+
 Read the case study → (https://github.com/nikklet/data-classifier-router)
 
 ### Company RAG Assistant
@@ -28,6 +30,7 @@ A chat assistant that answers team questions from internal company documents and
 **Outcome:** Saved team members time digging through documents and cut down on repeat questions to colleagues.
 
 **Stack:** n8n · Claude / Gemini · n8n Vector Store · Slack API · REST
+
 Read the case study → (https://github.com/nikklet/company-rag-assistant)
 
 ## Stack
